@@ -1,31 +1,31 @@
 import 'package:flutter/rendering.dart';
 
-extension PaddingExtension on num {
-  EdgeInsets get p {
-    return EdgeInsets.all(this);
+extension EdgeInsetsExtension<T extends num> on T {
+  EdgeInsets get e {
+    return EdgeInsets.all(this.toDouble());
   }
 
-  EdgeInsets get plr {
-    return EdgeInsets.symmetric(horizontal: this);
+  EdgeInsets get elr {
+    return EdgeInsets.symmetric(horizontal: this.toDouble());
   }
 
-  EdgeInsets get ptb {
-    return EdgeInsets.symmetric(vertical: this);
+  EdgeInsets get etb {
+    return EdgeInsets.symmetric(vertical: this.toDouble());
   }
 
-  EdgeInsets get pt {
-    return EdgeInsets.only(top: this);
+  EdgeInsets get et {
+    return EdgeInsets.only(top: this.toDouble());
   }
 
-  EdgeInsets get pl {
-    return EdgeInsets.only(left: this);
+  EdgeInsets get el {
+    return EdgeInsets.only(left: this.toDouble());
   }
 
-  EdgeInsets get pr {
-    return EdgeInsets.only(right: this);
+  EdgeInsets get er {
+    return EdgeInsets.only(right: this.toDouble());
   }
 
-  EdgeInsets get pb {
-    return EdgeInsets.only(bottom: this);
+  EdgeInsets get eb {
+    return EdgeInsets.only(bottom: this.toDouble());
   }
 }
