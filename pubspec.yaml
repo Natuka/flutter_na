@@ -1,16 +1,17 @@
 name: flutter_na
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.2
 author:
 homepage:
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil: ^1.1.0
+  styled_widget: ^0.2.1+2
 
 dev_dependencies:
   flutter_test:
