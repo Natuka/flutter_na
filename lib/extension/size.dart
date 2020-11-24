@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 void initSize(BuildContext context,
     {double width = 750, double height = 1334, bool allowFontScaling = false}) {
   ScreenUtil.init(context,
-      width: width, height: height, allowFontScaling: allowFontScaling);
+      designSize: Size(width, height), allowFontScaling: allowFontScaling);
 }
 
 extension NumberScreenSize on num {

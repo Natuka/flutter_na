@@ -1,8 +1,8 @@
 name: flutter_na
 description: A new Flutter package project.
-version: 0.0.2
+version: 0.0.4
 author:
-homepage:
+homepage: http://github.com/natuka/flutter_na
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_screenutil: ^1.1.0
-  styled_widget: ^0.2.1+2
+  flutter_screenutil: ^3.2.0
+  styled_widget: ^0.2.2
 
 dev_dependencies:
   flutter_test:
